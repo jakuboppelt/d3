@@ -16,6 +16,7 @@
     "url": "https://bost.ocks.org/mike"
   },
   "main": "build/d3.node.js",
+  "typings": "./typings/d3/index.d.ts",
   "browser": "build/d3.js",
   "module": "index",
   "jsnext:main": "index",
@@ -40,6 +41,7 @@
     "uglify-js": "2"
   },
   "dependencies": {
+    "@types/geojson": "0.0.30",
     "d3-array": "1.0.1",
     "d3-axis": "1.0.3",
     "d3-brush": "1.0.3",
